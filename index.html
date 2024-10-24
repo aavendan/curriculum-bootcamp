@@ -5,117 +5,163 @@
         <title>Curriculum Vitae - Juan Preciado</title>
     </head>
     <body>
-        <h1>Curriculum Vitae</h1>
+        <header>
+            <h1>Curriculum Vitae</h1>
+        </header>
 
-        <p>¡Hola! Soy Juan Preciado, con experiencia en desarrollo web en front
-            end y back end. Participo en todas las etapas del ciclo de
-            desarrollo de proyectos web dinámicos. Además, tengo sólidos
-            conocimientos en gestión de proyectos y relaciones con los
-            clientes.</p>
+        <nav>
+            <ul>
+                <li><a href="#secciondatos">Datos Personales</a></li>
+                <li><a href="#seccionredes">Redes Sociales</a></li>
+                <li><a href="#seccionhabilidades">Habilidades
+                        Profesionales</a></li>
+                <li><a href="#seccionidiomas">Idiomas</a></li>
+                <li><a href="#secciontransversales">Contenidos
+                        Transversales</a></li>
+                <li><a href="#secciongaleria">Galería</a></li>
+                <li><a href="#seccioncontactenos">Contáctenos</a></li>
+            </ul>
+        </nav>
 
-        <h2>Datos Personales</h2>
+        <section id="secciondatos">
+            <h2>Datos Personales</h2>
+            <p>¡Hola! Soy Juan Preciado, con experiencia en desarrollo web en
+                front
+                end y back end. Participo en todas las etapas del ciclo de
+                desarrollo de proyectos web dinámicos. Además, tengo sólidos
+                conocimientos en gestión de proyectos y relaciones con los
+                clientes.</p>
+        </section>
 
-        <h2>Redes Sociales</h2>
-        <span>
-            <a href='https://www.linkedin.com/in/aavendan/'
-                target="_blank">LinkedIn</a>
-            <a href='https://github.com/aavendan' target="_self">Github</a>
-        </span>
+        <section id="seccionredes">
+            <h2>Redes Sociales</h2>
+            <span>
+                <a href='https://www.linkedin.com/in/aavendan/'
+                    target="_blank">LinkedIn</a>
+                <a href='https://github.com/aavendan' target="_self">Github</a>
+            </span>
+        </section>
 
-        <h2>Habilidades Profesionales</h2>
+        <section id="seccionhabilidades">
+            <h2>Habilidades Profesionales</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Javascript</li>
+                <li>ReactJS</li>
+                <li>Django</li>
+                <li>Express</li>
+            </ul>
+        </section>
 
-        <ul>
-            <li>HTML & CSS</li>
-            <li>Javascript</li>
-            <li>ReactJS</li>
-            <li>Django</li>
-            <li>Express</li>
-        </ul>
+        <section id="seccionidiomas">
+            <h2>Idiomas</h2>
+            <table>
+                <caption>Habilidad en idiomas</caption>
+                <tr>
+                    <th>Idioma</th>
+                    <th>Básico</th>
+                    <th>Intermedio</th>
+                    <th>Avanzado</th>
+                    <th>Nativo</th>
+                </tr>
+                <tr>
+                    <th>Inglés</th>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Español</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                </tr>
+            </table>
+        </section>
 
-        <h2>Idiomas</h2>
-        <table>
-            <caption>Habilidad en idiomas</caption>
-            <tr>
-                <th>Idioma</th>
-                <th>Básico</th>
-                <th>Intermedio</th>
-                <th>Avanzado</th>
-                <th>Nativo</th>
-            </tr>
-            <tr>
-                <th>Inglés</th>
-                <td></td>
-                <td></td>
-                <td>X</td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>Español</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>X</td>
-            </tr>
-        </table>
+        <section id="secciontransversales">
+            <h2>Contenidos Transversales</h2>
 
-        <h2>Contenidos Transversales</h2>
+            <ol type="I">
+                <li>Docker</li>
+                <li>AWS</li>
+                <li>CI/CD</li>
+                <li>Scrum</li>
+            </ol>
+        </section>
 
-        <ol type="I">
-            <li>Docker</li>
-            <li>AWS</li>
-            <li>CI/CD</li>
-            <li>Scrum</li>
-        </ol>
+        <section id="secciongaleria">
+            <h2>Galería</h2>
+            <img src="public/images/reading.jpg" alt="Reading" width="30%">
+            <img
+                src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg"
+                alt="Foto de colaboración" width="30%">
+        </section>
 
-        <h2>Galería</h2>
-        <img src="public/images/reading.jpg" alt="Reading" width="30%">
-        <img
-            src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg"
-            alt="Foto de colaboración" width="30%">
+        <section id="seccioncontactenos">
+            <h2>Contáctame</h2>
 
-        <h2>Contáctame</h2>
+            <h3>Sus datos</h3>
+            <form>
+                <div>
+                    <label for>Nombres:</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for>Apellidos:</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for>Seleccione su rango de edad</label>
+                    <div>
+                        <input type="radio"><label for>menor a 25 años</label>
+                    </div>
+                    <div>
+                        <input type="radio"><label for>entre 26 y 30
+                            años</label>
+                    </div>
+                    <div>
+                        <input type="radio"><label for>mayor a 31 años</label>
+                    </div>
+                </div>
+                <div>
+                    <label for>Seleccione el tipo de servicio a
+                        consultar</label>
+                    <div>
+                        <input type="checkbox"><label for>Frontend Dev</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"><label for>Backend Dev</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"><label for>Desarrollo de
+                            software</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"><label for>CI/CD</label>
+                    </div>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
 
-        <h3>Sus datos</h3>
-        <form>
+            <h3>Ubicación</h3>
             <div>
-                <label for="">Nombres:</label>
-                <input type="text">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.015179369587!2d-79.96714432449005!3d-2.14787483717588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1729747060410!5m2!1ses-419!2sec"
+                    width="400" height="300" style="border:0;" allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div>
-                <label for="">Apellidos:</label>
-                <input type="text">
-            </div>
-            <div>
-                <label for="">Seleccione su rango de edad</label>
-                <div>
-                    <input type="radio"><label for="">menor a 25 años</label>
-                </div>
-                <div>
-                    <input type="radio"><label for="">entre 26 y 30 años</label>
-                </div>
-                <div>
-                    <input type="radio"><label for="">mayor a 31 años</label>
-                </div>
-            </div>
-            <div>
-                <label for="">Seleccione el tipo de servicio a consultar</label>
-                <div>
-                    <input type="checkbox"><label for="">Frontend Dev</label>
-                </div>
-                <div>
-                    <input type="checkbox"><label for="">Backend Dev</label>
-                </div>
-                <div>
-                    <input type="checkbox"><label for="">Desarrollo de software</label>
-                </div>
-                <div>
-                    <input type="checkbox"><label for="">CI/CD</label>
-                </div>
-            </div>
-            <button type="submit">Enviar</button>
-        </form>
+        </section>
 
-        <h3>Ubicación</h3>
+        <footer>
+            <p>Email: <a
+                    href="mailto:SU-CORREO-ELECTRÓNICO">SU-CORREO-ELECTRÓNICO</a></p>
+            <address>CIUDAD, PAÍS</address>
+            <small>© 2024 Todos los derechos reservados.</small>
+        </footer>
 
     </body>
 </html>
